@@ -23,11 +23,10 @@ body {
 
 /* layout */
 header {
-    
+    color: white;
     text-align: center;
-    padding: 2em 0;
-    margin-bottom: 2em;
-    background: #f8f8f8;
+    padding-top:1em;
+    background: #143774;
 }
 .container {
     width: 90%;
@@ -40,6 +39,12 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+.container-flex-row {
+    /* border: 1px solid magenta; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .header {
@@ -81,7 +86,7 @@ nav li {
 nav a {
     /* border: 1px solid green; */
     text-decoration: none;
-    color: #707070;
+    color: white;;
     font-weight: 700;
     padding: 0.25em 0;
 }
