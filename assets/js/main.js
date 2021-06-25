@@ -31,6 +31,17 @@ navLinks.forEach((navLink)=>{
 })
 /*==================== ACCORDION SKILLS ====================*/
 
+const skillsHeader = document.querySelectorAll('.skills__header')
+skillsHeader.forEach((item)=>{
+    item.addEventListener('click',()=>{
+        let itemClass=item.parentNode.className; //parent Node is Skills__content
+        if(itemClass === 'skills__content skills__close'){
+            item.parentNode.className='skills__content skills__open'
+        }else{
+            item.parentNode.className='skills__content skills__close'
+        }
+    })
+})
 
 /*==================== QUALIFICATION TABS ====================*/
 

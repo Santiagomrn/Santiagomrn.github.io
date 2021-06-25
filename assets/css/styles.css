@@ -386,8 +386,22 @@ svg{
     grid-template-columns: 1fr 1fr;
     margin-bottom: var(--mb-1);
 }
+.skills__close .skills__list{
+    height: 0;
+    overflow: hidden;
+}
+
+.skills__open .skills__list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow{
+    transform: rotate(180deg);
+}
 
 /*==================== QUALIFICATION ====================*/
+
 
 /*==================== SERVICES ====================*/
 
