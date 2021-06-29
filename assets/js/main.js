@@ -65,10 +65,6 @@ tabs.forEach(tab=>{
     })
 })
 
-
-/*==================== SERVICES MODAL ====================*/
-
-
 /*==================== PORTFOLIO SWIPER  ====================*/
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
@@ -77,8 +73,6 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
-
-/*==================== TESTIMONIAL ====================*/
 
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
