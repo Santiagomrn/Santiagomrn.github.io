@@ -65,14 +65,14 @@ tabs.forEach(tab=>{
     })
 })
 
-
-/*==================== SERVICES MODAL ====================*/
-
-
 /*==================== PORTFOLIO SWIPER  ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
 
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
