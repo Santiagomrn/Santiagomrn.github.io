@@ -29,17 +29,22 @@ const data = ref([
     title: 'Constellations',
     description:
       ' interactive digital exhibition Constellations: Remaining Celestial Histories in the Early Américas.',
-    image: '/assets/img/constellations.png'
+    image: 'assets/img/constellations.png'
   },
   {
     title: 'Covid Forms',
     description: ' Management system for covid expedients.',
-    image: '/assets/img/covid.png'
+    image: 'assets/img/covid.png'
   },
   {
     title: 'Wincify',
     description: 'E-commerce application',
-    image: '/assets/img/wincify.png'
+    image: 'assets/img/wincify.png'
+  },
+  {
+    title: 'TransportE',
+    description: 'Payment for public transportation, travel optimization, real time tracking',
+    image: 'assets/img/trasnportApp.jpeg'
   }
 ])
 </script>
@@ -94,6 +99,7 @@ const data = ref([
   /* width: 265px; */
   border-radius: 0.5rem;
   justify-self: center;
+  max-height: 238px;
 }
 .portfolio__title {
   font-size: var(--h3-font-size);
@@ -114,7 +120,7 @@ const data = ref([
 }
 @media screen and (min-width: 768px) {
   .portfolio__img {
-    width: 620px;
+    max-height: 238px;
   }
 }
 
